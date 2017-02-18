@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-var x int = 42
+var x int = 42 // x is not capitalized so it's not exported
+// var X int = 42 would be exported
 
 func main() {
   fmt.Println(x)
