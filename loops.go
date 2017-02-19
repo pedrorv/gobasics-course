@@ -23,7 +23,7 @@ func main() {
       break
     }
 
-    fmt.Println(k)
+    fmt.Println(k) 
     k++
   }
 
