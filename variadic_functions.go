@@ -4,8 +4,15 @@ import "fmt"
 
 func main() {
   fmt.Println(average(43, 56, 87, 12, 45, 57))
+
+  data := []float64{43, 56, 87, 12, 45, 57}
+  // Variadic arguments
+  n := average(data...)
+  fmt.Println(n)
 }
 
+
+// Variadic parameters
 func average(sf ...float64) float64 {
   // sf is a slice of float64
 
